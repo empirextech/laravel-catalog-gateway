@@ -4,7 +4,7 @@ A Laravel 11 API that sits between a shop catalog and a merchant / marketplace c
 
 It accepts product upserts, queues bounded catalog pushes, verifies signed webhooks, and optionally enriches copy through an OpenAI-compatible provider with a strict JSON schema.
 
-This is an original demonstration application. It is not a client ERP, not EMPIRE Synapse, and not a live Merchant Center account. The shape of the work — incremental feed pushes, circuit breaking, HMAC webhooks, structured AI output — comes from catalog-sync and automation work reimplemented as a clean API.
+Built by **SC EMPIRE GLOBAL SOLUTIONS SRL** (EMPIREX Tech). This is an original demonstration application. It is not a client ERP, not EMPIRE Synapse, and not a live Merchant Center account. The shape of the work — incremental feed pushes, circuit breaking, HMAC webhooks, structured AI output — comes from catalog-sync and automation work reimplemented as a clean API.
 
 ## Problem
 
@@ -127,4 +127,4 @@ Queue connection is `sync` in PHPUnit so jobs run in-process.
 
 ## License
 
-MIT.
+MIT. EMPIREX Tech / SC EMPIRE GLOBAL SOLUTIONS SRL.
